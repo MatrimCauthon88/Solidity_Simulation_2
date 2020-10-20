@@ -47,7 +47,7 @@ contract WindshearCoinSaleDeployer {
         public
     {
         // create the PupperCoin and keep its address handy
-		WindshearCoin token = new PupperCoin(name, symbol, 0);
+		WindshearCoin token = new WindshearCoin(name, symbol, 0);
         token_address = address(token);
 
 
