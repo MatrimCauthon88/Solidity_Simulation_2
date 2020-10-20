@@ -12,7 +12,7 @@ contract WindshearCoinSale is Crowdsale, MintedCrowdsale, CappedCrowdsale, Timed
 
     constructor(
         // Fill in the constructor parameters!
-		uint rate, // rate in TKNbits
+		uint rate, // rate in TKN
         address payable wallet, 
         WindshearCoin token, 
         uint goal,
